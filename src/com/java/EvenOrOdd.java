@@ -21,12 +21,27 @@
 // 	}
 // }
 
-# Python program to check if the input number is odd or even.
-# A number is even if division by 2 gives a remainder of 0.
-# If the remainder is 1, it is an odd number.
+// # Python program to check if the input number is odd or even.
+// # A number is even if division by 2 gives a remainder of 0.
+// # If the remainder is 1, it is an odd number.
 
-num = int(input("Enter a number: "))
-if (num % 2) == 0:
-   print("{0} is Even".format(num))
-else:
-   print("{0} is Odd".format(num))
+// num = int(input("Enter a number: "))
+// if (num % 2) == 0:
+//    print("{0} is Even".format(num))
+// else:
+//    print("{0} is Odd".format(num))
+
+
+// program to check if the number is even or odd
+// take input from the user
+const number = prompt("Enter a number: ");
+
+//check if the number is even
+if(number % 2 == 0) {
+    console.log("The number is even.");
+}
+
+// if the number is odd
+else {
+    console.log("The number is odd.");
+}
