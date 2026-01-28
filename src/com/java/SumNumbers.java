@@ -11,3 +11,28 @@ public class SumNumbers {
 		System.out.println("The sum of the Number is:"+sum.get());
 	}
 }
+
+import java.io.*;
+class GFG {
+
+    static int sum(int[] arr, int n)
+    {
+
+        // base or terminating condition
+        if (n <= 0) {
+            return 0;
+        }
+
+        // Calling method recursively
+        return sum(arr, n - 1) + arr[n - 1];
+    }
+
+    public static void main(String[] args)
+    {
+
+        int arr[] = { 12, 3, 4, 15 };
+        int s = sum(arr, arr.length);
+
+        System.out.println(s);
+    }
+}
